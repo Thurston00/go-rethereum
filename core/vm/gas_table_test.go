@@ -23,11 +23,11 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Thurston00/go-rethereum/common"
+	"github.com/Thurston00/go-rethereum/common/hexutil"
+	"github.com/Thurston00/go-rethereum/core/rawdb"
+	"github.com/Thurston00/go-rethereum/core/state"
+	"github.com/Thurston00/go-rethereum/params"
 )
 
 func TestMemoryGasCost(t *testing.T) {

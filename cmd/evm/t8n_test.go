@@ -24,9 +24,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Thurston00/go-rethereum/cmd/evm/internal/t8ntool"
+	"github.com/Thurston00/go-rethereum/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/t8ntool"
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
 )
 
 func TestMain(m *testing.M) {

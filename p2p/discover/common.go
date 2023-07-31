@@ -20,11 +20,11 @@ import (
 	"crypto/ecdsa"
 	"net"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/Thurston00/go-rethereum/common/mclock"
+	"github.com/Thurston00/go-rethereum/log"
+	"github.com/Thurston00/go-rethereum/p2p/enode"
+	"github.com/Thurston00/go-rethereum/p2p/enr"
+	"github.com/Thurston00/go-rethereum/p2p/netutil"
 )
 
 // UDPConn is a network connection on which discovery can operate.

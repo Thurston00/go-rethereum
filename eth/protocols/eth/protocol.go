@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Thurston00/go-rethereum/common"
+	"github.com/Thurston00/go-rethereum/core/forkid"
+	"github.com/Thurston00/go-rethereum/core/types"
+	"github.com/Thurston00/go-rethereum/rlp"
 )
 
 // Constants to match up protocol versions and messages

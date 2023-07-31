@@ -28,13 +28,13 @@ import (
 	"testing"
 	"testing/quick"
 
+	"github.com/Thurston00/go-rethereum/common"
+	"github.com/Thurston00/go-rethereum/core/rawdb"
+	"github.com/Thurston00/go-rethereum/core/types"
+	"github.com/Thurston00/go-rethereum/crypto"
+	"github.com/Thurston00/go-rethereum/ethdb"
+	"github.com/Thurston00/go-rethereum/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

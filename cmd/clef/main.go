@@ -34,25 +34,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/rules"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/Thurston00/go-rethereum/accounts"
+	"github.com/Thurston00/go-rethereum/accounts/keystore"
+	"github.com/Thurston00/go-rethereum/cmd/utils"
+	"github.com/Thurston00/go-rethereum/common"
+	"github.com/Thurston00/go-rethereum/common/hexutil"
+	"github.com/Thurston00/go-rethereum/core/types"
+	"github.com/Thurston00/go-rethereum/crypto"
+	"github.com/Thurston00/go-rethereum/internal/ethapi"
+	"github.com/Thurston00/go-rethereum/internal/flags"
+	"github.com/Thurston00/go-rethereum/log"
+	"github.com/Thurston00/go-rethereum/node"
+	"github.com/Thurston00/go-rethereum/params"
+	"github.com/Thurston00/go-rethereum/rlp"
+	"github.com/Thurston00/go-rethereum/rpc"
+	"github.com/Thurston00/go-rethereum/signer/core"
+	"github.com/Thurston00/go-rethereum/signer/core/apitypes"
+	"github.com/Thurston00/go-rethereum/signer/fourbyte"
+	"github.com/Thurston00/go-rethereum/signer/rules"
+	"github.com/Thurston00/go-rethereum/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
@@ -868,7 +868,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/ethereum/go-ethereum/issues/20123
+	// https://github.com/Thurston00/go-rethereum/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

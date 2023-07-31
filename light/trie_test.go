@@ -23,14 +23,14 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/Thurston00/go-rethereum/consensus/ethash"
+	"github.com/Thurston00/go-rethereum/core"
+	"github.com/Thurston00/go-rethereum/core/rawdb"
+	"github.com/Thurston00/go-rethereum/core/state"
+	"github.com/Thurston00/go-rethereum/core/vm"
+	"github.com/Thurston00/go-rethereum/params"
+	"github.com/Thurston00/go-rethereum/trie"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
 )
 
 func TestNodeIterator(t *testing.T) {

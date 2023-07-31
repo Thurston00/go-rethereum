@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Thurston00/go-rethereum/common"
 )
 
 // leaf represents a trie leaf node

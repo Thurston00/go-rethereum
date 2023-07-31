@@ -24,9 +24,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Thurston00/go-rethereum/common"
+	"github.com/Thurston00/go-rethereum/params"
+	"github.com/Thurston00/go-rethereum/rlp"
 	"github.com/kylelemons/godebug/diff"
 )
 

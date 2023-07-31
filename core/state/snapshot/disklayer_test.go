@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/Thurston00/go-rethereum/common"
+	"github.com/Thurston00/go-rethereum/core/rawdb"
+	"github.com/Thurston00/go-rethereum/ethdb/memorydb"
+	"github.com/Thurston00/go-rethereum/rlp"
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // reverse reverses the contents of a byte slice. It's used to update random accs

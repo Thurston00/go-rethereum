@@ -20,7 +20,7 @@
 package metrics
 
 import (
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Thurston00/go-rethereum/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

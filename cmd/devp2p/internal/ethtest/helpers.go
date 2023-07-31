@@ -23,14 +23,14 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Thurston00/go-rethereum/common"
+	"github.com/Thurston00/go-rethereum/core/types"
+	"github.com/Thurston00/go-rethereum/crypto"
+	"github.com/Thurston00/go-rethereum/eth/protocols/eth"
+	"github.com/Thurston00/go-rethereum/internal/utesting"
+	"github.com/Thurston00/go-rethereum/p2p"
+	"github.com/Thurston00/go-rethereum/p2p/rlpx"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
 )
 
 var (

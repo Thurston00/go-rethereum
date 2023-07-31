@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Thurston00/go-rethereum/log"
 )
 
 type (

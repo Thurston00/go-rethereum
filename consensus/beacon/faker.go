@@ -19,8 +19,8 @@ package beacon
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/Thurston00/go-rethereum/consensus"
+	"github.com/Thurston00/go-rethereum/core/types"
 )
 
 // NewFaker creates a fake consensus engine for testing.

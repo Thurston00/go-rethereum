@@ -33,12 +33,12 @@ import (
 	"time"
 	"unsafe"
 
+	lrupkg "github.com/Thurston00/go-rethereum/common/lru"
+	"github.com/Thurston00/go-rethereum/consensus"
+	"github.com/Thurston00/go-rethereum/log"
+	"github.com/Thurston00/go-rethereum/metrics"
+	"github.com/Thurston00/go-rethereum/rpc"
 	"github.com/edsrzf/mmap-go"
-	lrupkg "github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rpc"
 )
 
 var ErrInvalidDumpMagic = errors.New("invalid dump magic")

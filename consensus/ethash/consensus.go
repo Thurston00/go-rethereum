@@ -25,16 +25,16 @@ import (
 	"runtime"
 	"time"
 
+	"github.com/Thurston00/go-rethereum/common"
+	"github.com/Thurston00/go-rethereum/common/math"
+	"github.com/Thurston00/go-rethereum/consensus"
+	"github.com/Thurston00/go-rethereum/consensus/misc"
+	"github.com/Thurston00/go-rethereum/core/state"
+	"github.com/Thurston00/go-rethereum/core/types"
+	"github.com/Thurston00/go-rethereum/params"
+	"github.com/Thurston00/go-rethereum/rlp"
+	"github.com/Thurston00/go-rethereum/trie"
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
 )
 
 // Ethash proof-of-work protocol constants.

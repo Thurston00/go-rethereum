@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nodestate"
+	"github.com/Thurston00/go-rethereum/common/mclock"
+	"github.com/Thurston00/go-rethereum/p2p/enode"
+	"github.com/Thurston00/go-rethereum/p2p/enr"
+	"github.com/Thurston00/go-rethereum/p2p/nodestate"
 )
 
 const (

@@ -19,7 +19,7 @@ package vm
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Thurston00/go-rethereum/params"
 )
 
 // LookupInstructionSet returns the instructionset for the fork configured by

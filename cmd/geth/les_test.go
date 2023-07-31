@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Thurston00/go-rethereum/p2p"
+	"github.com/Thurston00/go-rethereum/rpc"
 )
 
 type gethrpc struct {

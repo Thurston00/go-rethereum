@@ -35,7 +35,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Thurston00/go-rethereum/log"
 	"github.com/hashicorp/go-bexpr"
 )
 

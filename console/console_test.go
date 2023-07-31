@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/Thurston00/go-rethereum/common"
+	"github.com/Thurston00/go-rethereum/consensus/ethash"
+	"github.com/Thurston00/go-rethereum/console/prompt"
+	"github.com/Thurston00/go-rethereum/core"
+	"github.com/Thurston00/go-rethereum/eth"
+	"github.com/Thurston00/go-rethereum/eth/ethconfig"
+	"github.com/Thurston00/go-rethereum/internal/jsre"
+	"github.com/Thurston00/go-rethereum/miner"
+	"github.com/Thurston00/go-rethereum/node"
 )
 
 const (
