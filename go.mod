@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/Thurston00/go-rethereum
 
 go 1.19
 
